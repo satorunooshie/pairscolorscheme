@@ -294,7 +294,7 @@ VertSplit            grey66              grey66            reverse
 Visual               none                darkgrey242
 VisualNOS            none                none              underline,bold
 WarningMsg           orange              none
-WildMenu             black               yellow
+WildMenu             black               pairsblue
 Comment              grey66              omit              italic bold
 Constant             yellow3             none
 Error                white231            red3
@@ -313,7 +313,7 @@ Number               blue                omit
 Typedef              pairsblue           omit
 Todo                 white               black             bold
 LspErrorLine         red3                omit
-LspErrorHighlight    pairsblue           omit
+LspErrorHighlight    red3                omit
 ; }}}
 
 

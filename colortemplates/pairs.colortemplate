@@ -263,7 +263,7 @@ CursorLineNr         pairsblue           omit
 CursorLine           none                grey40
 DiffAdd              green               none
 DiffChange           none                none
-DiffDelete           grey27              grey27
+DiffDelete           grey40              none
 DiffText             white               red3             bold
 Directory            pairsblue           omit
 ErrorMsg             white               reddarkred

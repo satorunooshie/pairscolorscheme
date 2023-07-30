@@ -185,7 +185,7 @@ PmenuSbar            none                grey
 PmenuThumb           none                black
 Question             seagreen            none              g=bold
 Search               none                yellow
-SignColumn           darkblue            grey
+SignColumn           darkblue            none
 SpecialKey           bluedarkblue        none
 StatusLine           none                none              reverse,bold
 StatusLineNC         none                none              reverse
@@ -282,7 +282,7 @@ PmenuSbar            none                grey50
 PmenuThumb           pairsblue           white231
 Question             greenlightgreen     none              g=bold
 Search               black               pairsblue
-SignColumn           lightgreen          grey27
+SignColumn           lightgreen          none
 Special              yellow3             omit
 SpecialKey           cyanlightblue       none
 StatusLine           grey66              none              reverse,bold

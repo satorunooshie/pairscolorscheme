@@ -1,4 +1,4 @@
-*Pairs.txt*	For Vim version 9.0	Last change: 2023  7 13
+*Pairs.txt*	For Vim version 9.0	Last change: 2023  7 30
 
 
 		  Pairs Colorsheme color scheme    by Satoru

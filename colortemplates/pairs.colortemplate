@@ -169,7 +169,7 @@ CursorColumn         none                lightgrey90
 DiffAdd              none                lightblue
 DiffChange           none                lightmagenta
 DiffDelete           blue                lightcyan         g=bold
-DiffText             none                red3               bold
+DiffText             none                red3              bold
 Directory            bluedarkblue        none
 ErrorMsg             white               reddarkred
 FoldColumn           darkblue            grey
@@ -264,14 +264,14 @@ CursorLine           none                grey40
 DiffAdd              green               none
 DiffChange           none                none
 DiffDelete           grey40              none
-DiffText             white               red3             bold
+DiffText             white               red3              bold
 Directory            pairsblue           omit
 ErrorMsg             white               reddarkred
-FoldColumn           cyan                greydarkgrey
-Folded               cyan                darkgrey242
+FoldColumn           pairsblue           none
+Folded               pairsblue           none
 IncSearch            none                none              reverse
 LineNr               grey62              omit
-MatchParen           none                darkcyan
+MatchParen           none                pairsblue
 ModeMsg              none                none              bold
 MoreMsg              lightseagreen       none              g=bold
 NonText              pairsblue           none              g=bold
@@ -285,12 +285,12 @@ Search               black               pairsblue
 SignColumn           lightgreen          none
 Special              yellow3             omit
 SpecialKey           cyanlightblue       none
-StatusLine           grey66              none              reverse,bold
-StatusLineNC         grey66              none              reverse
-TabLineFill          grey66              none              reverse
+StatusLine           grey50              white231          reverse,bold
+StatusLineNC         grey50              white231          reverse
+TabLineFill          grey50              white231          reverse
 TabLineSel           none                none              bold
 Title                pairsblue           none              g=bold
-VertSplit            grey66              grey66            reverse
+VertSplit            grey62              none              bold
 Visual               none                darkgrey242
 VisualNOS            none                none              underline,bold
 WarningMsg           orange              none

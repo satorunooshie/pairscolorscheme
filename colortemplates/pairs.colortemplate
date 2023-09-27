@@ -230,8 +230,8 @@ SpellBad             none                red
 SpellCap             none                blue
 SpellLocal           none                cyan
 SpellRare            none                magenta
-StatusLineTerm       black               lightgreen        bold
-StatusLineNC         black               lightgreen
+StatusLineTerm       white231            grey50            bold
+StatusLineNC         white231            grey50
 TabLine              white231            darkgrey242       underline
 Todo                 black               yellow
 
@@ -246,8 +246,8 @@ SpellBad             none                none              undercurl s=red
 SpellCap             none                none              undercurl s=blue
 SpellLocal           none                none              undercurl s=cyan
 SpellRare            none                none              undercurl s=magenta
-StatusLineTerm       bg                  lightgreen        bold
-StatusLineTermNC     bg                  lightgreen
+StatusLineTerm       white231            grey50            bold
+StatusLineTermNC     white231            grey50
 TabLine              none                darkgrey242       underline
 Todo                 blue                yellow
 
@@ -287,6 +287,8 @@ Special              yellow3             omit
 SpecialKey           cyanlightblue       none
 StatusLine           grey50              white231          reverse,bold
 StatusLineNC         grey50              white231          reverse
+StatusLineTerm       white231            grey50            bold
+StatusLineTermNC     white231            grey50
 TabLineFill          grey50              white231          reverse
 TabLineSel           none                none              bold
 Title                pairsblue           none              g=bold

@@ -222,7 +222,7 @@ Variant: 256 8
 
 ; NOTE: Vim's default does not define Normal
 Normal               white               none
-Terminal             white               black
+Terminal             white               none
 CursorLine           none                none              underline
 Pmenu                black               magenta
 PmenuSel             darkgrey242         black
@@ -238,7 +238,7 @@ Todo                 black               yellow
 Variant: gui
 
 Normal               white               black
-Terminal             white               black
+Terminal             white               none
 CursorLine           none                grey40
 Pmenu                none                magenta
 PmenuSel             none                darkgrey242

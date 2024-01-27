@@ -127,92 +127,103 @@ Background: light
 Variant: 256 8
 
 ; NOTE: Vim's default does not define Normal
-Normal               black               none
-Terminal             black               none
+Normal               white               none
+Terminal             white               none
 CursorLine           none                none              underline
-Pmenu                black               lightmagenta
-PmenuSel             black               lightgrey
-SpellBad             none                lightred
-SpellCap             none                lightblue
+Pmenu                black               magenta
+PmenuSel             darkgrey242         black
+SpellBad             none                red
+SpellCap             none                blue
 SpellLocal           none                cyan
-SpellRare            none                lightmagenta
-StatusLineTerm       white               darkgreen         bold
-StatusLineTermNC     white               darkgreen
-TabLine              black               lightgrey         underline
+SpellRare            none                magenta
+StatusLineTerm       white231            grey50            bold
+StatusLineNC         white231            grey50
+TabLine              white231            darkgrey242       underline
 Ignore               white               none
 Todo                 black               yellow
 
 Variant: gui
 
-Normal               black               white
-Terminal             black               white
-CursorLine           none                lightgrey90
-Pmenu                none                lightmagenta
-PmenuSel             none                grey
+Normal               white               none
+Terminal             white               none
+CursorLine           none                grey40
+Pmenu                none                magenta
+PmenuSel             none                darkgrey242
 SpellBad             none                none              undercurl s=red
 SpellCap             none                none              undercurl s=blue
-SpellLocal           none                none              undercurl s=darkcyan
+SpellLocal           none                none              undercurl s=cyan
 SpellRare            none                none              undercurl s=magenta
-StatusLineTerm       bg                  darkgreen         bold
-StatusLineTermNC     bg                  darkgreen
-TabLine              none                lightgrey         underline
+StatusLineTerm       white231            grey50            bold
+StatusLineTermNC     white231            grey50
+TabLine              none                darkgrey242       underline
 Ignore               bg                  none
 Todo                 blue                yellow
 
 Variant: gui 256 8
 
 ; Group              Foreground          Background        Attributes
-ColorColumn          none                lightred
+ColorColumn          none                darkred
 Conceal              lightgrey           darkgrey242
 ; NOTE: Vim's default does not define Cursor/lCursor in the terminal
-Cursor               white               fg
-CursorColumn         none                lightgrey90
-DiffAdd              none                lightblue
-DiffChange           none                lightmagenta
-DiffDelete           blue                lightcyan         g=bold
-DiffText             none                red3              bold
-Directory            bluedarkblue        none
+Cursor               black               fg
+CursorColumn         none                grey40
+CursorLineNr         pairsblue           omit
+CursorLine           none                grey40
+DiffAdd              green               none
+DiffChange           none                none
+DiffDelete           grey40              none
+DiffText             white               red3              bold
+Directory            pairsblue           omit
 ErrorMsg             white               reddarkred
-FoldColumn           darkblue            grey
-Folded               darkblue            lightgreygrey
+FoldColumn           pairsblue           none
+Folded               pairsblue           none
 IncSearch            none                none              reverse
-LineNr               brown               none
-MatchParen           none                cyan
+LineNr               grey62              omit
+MatchParen           none                pairsblue
 ModeMsg              none                none              bold
-MoreMsg              seagreen            none              g=bold
+MoreMsg              lightseagreen       none              g=bold
 NonText              pairsblue           none              g=bold
 EndOfBuffer          pairsblue           none              g=bold
-PmenuSbar            none                grey
-PmenuThumb           none                black
-Question             seagreen            none              g=bold
-Search               none                yellow
-SignColumn           darkblue            none
-SpecialKey           bluedarkblue        none
-StatusLine           none                none              reverse,bold
-StatusLineNC         none                none              reverse
-TabLineFill          none                none              reverse
+Pmenu                pairsblue           grey27
+PmenuSel             grey93              grey50
+PmenuSbar            none                grey50
+PmenuThumb           pairsblue           white231
+Question             greenlightgreen     none              g=bold
+Search               black               pairsblue
+SignColumn           lightgreen          none
+Special              yellow3             omit
+SpecialKey           cyanlightblue       none
+StatusLine           grey50              white231          reverse,bold
+StatusLineNC         grey50              white231          reverse
+StatusLineTerm       white231            grey50            bold
+StatusLineTermNC     white231            grey50
+TabLineFill          grey50              white231          reverse
 TabLineSel           none                none              bold
-Title                magentadarkmagenta  none              g=bold
-VertSplit            none                none              reverse
-Visual               none                lightgrey
+Title                pairsblue           none              g=bold
+VertSplit            grey62              none              bold
+Visual               none                darkgrey242
 VisualNOS            none                none              underline,bold
-WarningMsg           reddarkred          none
-WildMenu             black               yellow
-; Other conventional group names (see `:help group-name`)
-Comment              bluedarkblue        none
-Constant             yellow3      none
-Error                white               red3
-Identifier           darkcyan            none
-PreProc              purple              none
-Special              slateblue           none
-Statement            brown               none              g=bold
-Type                 seagreen            none              g=bold
-Underlined           slateblue           none              underline
-; See `:help lCursor`
-lCursor              white               fg
-; See `:help window-toolbar`
-ToolbarLine          none                lightgrey
-ToolbarButton        white               grey40            bold
+WarningMsg           orange              none
+WildMenu             black               pairsblue
+Comment              grey66              omit              italic bold
+Constant             yellow3             none
+Error                white231            red3
+Identifier           cyanidentifier      none              t=bold
+Ignore               black               none
+PreProc              lightbluepreproc    none
+Statement            pairsblue           omit
+Type                 yellow3             omit              g=bold
+Underlined           lightblueunderlined none              underline
+ToolbarLine          none                grey50
+ToolbarButton        grey232             lightgrey         bold
+Keyword              pairsblue           omit              bold
+String               navajowhite3        omit
+Boolean              deeppink1           omit
+Number               gold1               omit
+Typedef              pairsblue           omit
+Todo                 white               black             bold
+LspErrorLine         red3                omit
+LspErrorHighlight    red3                omit
 ; }}}
 
 Background: dark

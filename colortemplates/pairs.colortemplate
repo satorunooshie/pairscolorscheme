@@ -30,7 +30,8 @@ Color: darkgrey242          DarkGrey             242        DarkGrey
 Color: darkmagenta          DarkMagenta            5        DarkMagenta
 Color: darkred              DarkRed                1        DarkRed
 Color: green                Green                 10        Green
-Color: yellow3              #c5cc00              148        LightGreen
+Color: yellow3              #c5cc00              148        Yellow
+Color: gold1                #ffd700              220        Yellow
 Color: greenlightgreen      Green                121        LightGreen
 Color: grey                 Grey                 248        Grey
 Color: grey27               #444444              238        Grey
@@ -311,7 +312,7 @@ ToolbarButton        grey232             lightgrey         bold
 Keyword              pairsblue           omit              bold
 String               navajowhite3        omit
 Boolean              deeppink1           omit
-Number               blue                omit
+Number               gold1               omit
 Typedef              pairsblue           omit
 Todo                 white               black             bold
 LspErrorLine         red3                omit
